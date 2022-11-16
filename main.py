@@ -57,3 +57,4 @@ company = "Kodlamaio"
 #print(name + " " + age + " yaşında " + company + "'de çalışıyor")
 print(f"{name} {age} yaşında {company}'de çalışıyor")
 #!
+print("Merhaba github")

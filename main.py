@@ -58,3 +58,6 @@ company = "Kodlamaio"
 print(f"{name} {age} yaşında {company}'de çalışıyor")
 #!
 print("Merhaba github")
+
+
+

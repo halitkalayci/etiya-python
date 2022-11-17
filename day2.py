@@ -34,6 +34,33 @@ elif lessonNote == 49:
 else:
     print("Kaldınız")
 
+#! kullanıcıdan vize ve final notları alacak.
+#! vize %40  final %60 etkili olacak
+#! vize ve final notları 50.5 gibi ondalıklı sayılar olabilir
+#! uygulama ortalamayı hesaplayacak ve ortalamaya göre
+#! 0-49 FF
+#! 50-60 DD
+#! 60-70 CC
+#! 70-80 BB
+#! 80-100 AA
+#! not ortalamasını ve not harfini kullanıcıya gösterecek programı kodlayınız.
 
 
+for i in range(6):
+    print(i)
+
+
+students = ["Nilüfer","Özlem","Berk","Zakir"]
+for i in students:
+    print(i)
+
+
+#! infinite loop
+# while True:
+#     print("I am infinite!!")
+
+i = 0
+while i < 10:
+    print(i)
+    i+=1
 

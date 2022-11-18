@@ -1,11 +1,12 @@
 
 #! 1. kullanıcı gireceği ders sayısını belirtecek
-lessonCount = int(input("Kaç adet ders notu gireceksiniz?"))
-
+lessonCount = 0
+while lessonCount <= 0 or lessonCount > 10:
+    lessonCount = int(input("Kaç adet ders notu gireceksiniz?"))
 #! 2. girilen ders sayısı kadar 2 adet soru sorulacak.
 #! (1. ders için vize notu giriniz. 1. ders için final notu giriniz)
 #! girilen notlar ondalıklı olabilir
-
+#! dictionary
 passedExams = 0
 failedExams = 0
 for i in range(lessonCount):
@@ -17,3 +18,4 @@ for i in range(lessonCount):
     else:
         failedExams += 1
 print(f"{passedExams} adet dersten geçtiniz. {failedExams} adet dersten kaldınız.")
+
